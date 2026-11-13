@@ -1,0 +1,321 @@
+{
+  "shadow": {
+    "xs": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.051,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Elevación 1: bordes de controles",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "effectStyle": "shadow/xs"
+          }
+        }
+      }
+    },
+    "sm": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.102,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.0588,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Elevación 1: cards",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "effectStyle": "shadow/sm"
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.102,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.0588,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Elevación 2: dropdowns y popovers",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "effectStyle": "shadow/md"
+          }
+        }
+      }
+    },
+    "lg": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.0784,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 12,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 16,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.0314,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Elevación 3: modales y paneles laterales",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "effectStyle": "shadow/lg"
+          }
+        }
+      }
+    },
+    "xl": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.102,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 20,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 24,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0431,
+              0.051,
+              0.0627
+            ],
+            "alpha": 0.0392,
+            "hex": "#0B0D10"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "$description": "Elevación 4: toasts y elementos flotantes",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "effectStyle": "shadow/xl"
+          }
+        }
+      }
+    }
+  }
+}

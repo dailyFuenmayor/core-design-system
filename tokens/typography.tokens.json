@@ -1,0 +1,363 @@
+{
+  "display": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 48,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.1667,
+        "letterSpacing": {
+          "value": -0.96,
+          "unit": "px"
+        }
+      },
+      "$description": "Títulos de portada o páginas de marketing internas",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "display/lg",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 56,
+            "letterSpacingPercent": -2.0
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 36,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.2222,
+        "letterSpacing": {
+          "value": -0.72,
+          "unit": "px"
+        }
+      },
+      "$description": "Títulos destacados",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "display/md",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 44,
+            "letterSpacingPercent": -2.0
+          }
+        }
+      }
+    }
+  },
+  "heading": {
+    "xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 30,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.2667,
+        "letterSpacing": {
+          "value": -0.3,
+          "unit": "px"
+        }
+      },
+      "$description": "Título de página",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "heading/xl",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 38,
+            "letterSpacingPercent": -1.0
+          }
+        }
+      }
+    },
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": -0.24,
+          "unit": "px"
+        }
+      },
+      "$description": "Título de sección",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "heading/lg",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 32,
+            "letterSpacingPercent": -1.0
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.4,
+        "letterSpacing": {
+          "value": -0.1,
+          "unit": "px"
+        }
+      },
+      "$description": "Título de card o modal",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "heading/md",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 28,
+            "letterSpacingPercent": -0.5
+          }
+        }
+      }
+    },
+    "sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "lineHeight": 1.4444,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Subtítulo",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "heading/sm",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 26,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Texto de lectura largo",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "body/lg",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 24,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Texto por defecto de interfaz",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "body/md",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 20,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    },
+    "sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Texto de apoyo y metadatos",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "body/sm",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 18,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    }
+  },
+  "label": {
+    "lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "lineHeight": 1.5,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Etiquetas de controles grandes",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "label/lg",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 24,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    },
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "lineHeight": 1.4286,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Etiquetas de botones, campos y tabs",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "label/md",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 20,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    },
+    "sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.sans}",
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "lineHeight": 1.3333,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Badges, chips y etiquetas pequeñas",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "label/sm",
+            "fontFamilyBoundTo": "brand/font/sans",
+            "lineHeightPx": 16,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    }
+  },
+  "code": {
+    "md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{brand.font.mono}",
+        "fontSize": {
+          "value": 13,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "lineHeight": 1.5385,
+        "letterSpacing": {
+          "value": 0.0,
+          "unit": "px"
+        }
+      },
+      "$description": "Código y valores técnicos",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "textStyle": "code/md",
+            "fontFamilyBoundTo": "brand/font/mono",
+            "lineHeightPx": 20,
+            "letterSpacingPercent": 0.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "brand": {
+    "accent": {
+      "50": {
+        "$value": "{color.violet.50}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/50",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "100": {
+        "$value": "{color.violet.100}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/100",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "200": {
+        "$value": "{color.violet.200}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/200",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "300": {
+        "$value": "{color.violet.300}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/300",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "400": {
+        "$value": "{color.violet.400}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/400",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "500": {
+        "$value": "{color.violet.500}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/500",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "600": {
+        "$value": "{color.violet.600}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/600",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "700": {
+        "$value": "{color.violet.700}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/700",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "800": {
+        "$value": "{color.violet.800}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/800",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "900": {
+        "$value": "{color.violet.900}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/900",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      },
+      "950": {
+        "$value": "{color.violet.950}",
+        "$type": "color",
+        "$description": "Escala de acento de la marca. Para personalizar, re-apunta este alias a otra escala primitiva.",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/accent/950",
+              "scopes": [
+                "(ninguno: oculto en los selectores)"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "font": {
+      "sans": {
+        "$value": "{font.family.ibm-plex-sans}",
+        "$type": "fontFamily",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/font/sans",
+              "scopes": [
+                "FONT_FAMILY"
+              ]
+            }
+          }
+        }
+      },
+      "mono": {
+        "$value": "{font.family.ibm-plex-mono}",
+        "$type": "fontFamily",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "brand",
+              "variable": "brand/font/mono",
+              "scopes": [
+                "FONT_FAMILY"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

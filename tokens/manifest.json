@@ -1,0 +1,75 @@
+{
+  "name": "CORE Design System",
+  "version": "1.0.0",
+  "source": "Variables locales del archivo maestro de Figma «CORE Design System — Master» (v1.0)",
+  "format": "Design Tokens Community Group (DTCG) Format Module 2025.10",
+  "collections": {
+    "primitives": {
+      "modes": [
+        "Value"
+      ],
+      "variables": 75
+    },
+    "brand": {
+      "modes": [
+        "CORE",
+        "Nova"
+      ],
+      "variables": 13
+    },
+    "theme": {
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "variables": 52
+    },
+    "dimension": {
+      "modes": [
+        "Default"
+      ],
+      "variables": 51
+    }
+  },
+  "totalVariables": 191,
+  "files": [
+    "brand.core.tokens.json",
+    "brand.nova.tokens.json",
+    "dimension.tokens.json",
+    "primitives.tokens.json",
+    "shadow.tokens.json",
+    "theme.dark.tokens.json",
+    "theme.light.tokens.json",
+    "typography.tokens.json"
+  ],
+  "resolutionSets": {
+    "core-light": [
+      "primitives.tokens.json",
+      "brand.core.tokens.json",
+      "theme.light.tokens.json",
+      "dimension.tokens.json"
+    ],
+    "core-dark": [
+      "primitives.tokens.json",
+      "brand.core.tokens.json",
+      "theme.dark.tokens.json",
+      "dimension.tokens.json"
+    ],
+    "nova-light": [
+      "primitives.tokens.json",
+      "brand.nova.tokens.json",
+      "theme.light.tokens.json",
+      "dimension.tokens.json"
+    ],
+    "nova-dark": [
+      "primitives.tokens.json",
+      "brand.nova.tokens.json",
+      "theme.dark.tokens.json",
+      "dimension.tokens.json"
+    ]
+  },
+  "styles": {
+    "typography.tokens.json": "13 estilos de texto de Figma (no son variables)",
+    "shadow.tokens.json": "5 estilos de efecto de Figma (no son variables)"
+  }
+}

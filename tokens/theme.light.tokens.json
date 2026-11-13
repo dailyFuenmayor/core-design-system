@@ -1,0 +1,890 @@
+{
+  "bg": {
+    "canvas": {
+      "$value": "{color.gray.50}",
+      "$type": "color",
+      "$description": "Fondo de la página o aplicación",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/canvas",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "surface": {
+      "$value": "{color.white}",
+      "$type": "color",
+      "$description": "Superficie base: cards, paneles, tablas",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/surface",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "surface-raised": {
+      "$value": "{color.white}",
+      "$type": "color",
+      "$description": "Superficie elevada: menús, popovers, modales",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/surface-raised",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "subtle": {
+      "$value": "{color.gray.100}",
+      "$type": "color",
+      "$description": "Fondo sutil: filas alternas, áreas secundarias",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/subtle",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "muted": {
+      "$value": "{color.gray.200}",
+      "$type": "color",
+      "$description": "Fondo atenuado: tracks, separadores gruesos",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/muted",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "inverse": {
+      "$value": "{color.gray.900}",
+      "$type": "color",
+      "$description": "Fondo invertido: tooltips",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/inverse",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "selected": {
+      "$value": "{brand.accent.50}",
+      "$type": "color",
+      "$description": "Elemento seleccionado o activo",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/selected",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{brand.accent.600}",
+        "$type": "color",
+        "$description": "Acción principal",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/primary",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "primary-hover": {
+        "$value": "{brand.accent.700}",
+        "$type": "color",
+        "$description": "Acción principal en hover",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/primary-hover",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "primary-pressed": {
+        "$value": "{brand.accent.800}",
+        "$type": "color",
+        "$description": "Acción principal presionada",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/primary-pressed",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "secondary": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Acción secundaria",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/secondary",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "secondary-hover": {
+        "$value": "{color.gray.50}",
+        "$type": "color",
+        "$description": "Acción secundaria en hover",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/secondary-hover",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$value": "{color.gray.100}",
+        "$type": "color",
+        "$description": "Acción deshabilitada",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/disabled",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "destructive": {
+        "$value": "{color.red.600}",
+        "$type": "color",
+        "$description": "Acción destructiva (eliminar, revocar)",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/destructive",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "destructive-hover": {
+        "$value": "{color.red.700}",
+        "$type": "color",
+        "$description": "Acción destructiva en hover",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/destructive-hover",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "destructive-pressed": {
+        "$value": "{color.red.800}",
+        "$type": "color",
+        "$description": "Acción destructiva presionada",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/destructive-pressed",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "secondary-pressed": {
+        "$value": "{color.gray.100}",
+        "$type": "color",
+        "$description": "Acción secundaria presionada",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/secondary-pressed",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "tertiary-hover": {
+        "$value": "{color.gray.100}",
+        "$type": "color",
+        "$description": "Acción terciaria (sin fondo) en hover",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/tertiary-hover",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "tertiary-pressed": {
+        "$value": "{color.gray.200}",
+        "$type": "color",
+        "$description": "Acción terciaria presionada",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/action/tertiary-pressed",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "info": {
+        "$value": "{brand.accent.50}",
+        "$type": "color",
+        "$description": "Mensaje informativo",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/feedback/info",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "success": {
+        "$value": "{color.green.50}",
+        "$type": "color",
+        "$description": "Mensaje de éxito",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/feedback/success",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "warning": {
+        "$value": "{color.amber.50}",
+        "$type": "color",
+        "$description": "Mensaje de advertencia",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/feedback/warning",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "error": {
+        "$value": "{color.red.50}",
+        "$type": "color",
+        "$description": "Mensaje de error",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/feedback/error",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "control": {
+      "unchecked": {
+        "$value": "{color.gray.500}",
+        "$type": "color",
+        "$description": "Pista de Switch apagado (3:1 contra la superficie)",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/control/unchecked",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "unchecked-hover": {
+        "$value": "{color.gray.600}",
+        "$type": "color",
+        "$description": "Pista de Switch apagado en hover",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/control/unchecked-hover",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "thumb": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Perilla de Switch y punto de Radio seleccionado",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "bg/control/thumb",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "overlay": {
+      "$value": "{color.gray-alpha.50}",
+      "$type": "color",
+      "$description": "Fondo semitransparente detrás de Dialog y otros overlays modales.",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "bg/overlay",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "{color.gray.900}",
+      "$type": "color",
+      "$description": "Texto principal",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/primary",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "secondary": {
+      "$value": "{color.gray.600}",
+      "$type": "color",
+      "$description": "Texto secundario",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/secondary",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "tertiary": {
+      "$value": "{color.gray.500}",
+      "$type": "color",
+      "$description": "Texto terciario: ayudas, metadatos",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/tertiary",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "disabled": {
+      "$value": "{color.gray.400}",
+      "$type": "color",
+      "$description": "Texto deshabilitado (exento de contraste)",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/disabled",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "inverse": {
+      "$value": "{color.white}",
+      "$type": "color",
+      "$description": "Texto sobre bg/inverse",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/inverse",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "on-action": {
+      "primary": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Texto sobre bg/action/primary",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/on-action/primary",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "destructive": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Texto sobre bg/action/destructive",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/on-action/destructive",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "link": {
+      "$value": "{brand.accent.600}",
+      "$type": "color",
+      "$description": "Enlace",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/link",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "link-hover": {
+      "$value": "{brand.accent.700}",
+      "$type": "color",
+      "$description": "Enlace en hover",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "text/link-hover",
+            "scopes": [
+              "TEXT_FILL"
+            ]
+          }
+        }
+      }
+    },
+    "feedback": {
+      "info": {
+        "$value": "{brand.accent.700}",
+        "$type": "color",
+        "$description": "Texto informativo",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/feedback/info",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "success": {
+        "$value": "{color.green.700}",
+        "$type": "color",
+        "$description": "Texto de éxito",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/feedback/success",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "warning": {
+        "$value": "{color.amber.700}",
+        "$type": "color",
+        "$description": "Texto de advertencia",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/feedback/warning",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      },
+      "error": {
+        "$value": "{color.red.700}",
+        "$type": "color",
+        "$description": "Texto de error",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "text/feedback/error",
+              "scopes": [
+                "TEXT_FILL"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "border": {
+    "subtle": {
+      "$value": "{color.gray.100}",
+      "$type": "color",
+      "$description": "Borde decorativo muy suave",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "border/subtle",
+            "scopes": [
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "default": {
+      "$value": "{color.gray.200}",
+      "$type": "color",
+      "$description": "Borde por defecto de superficies",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "border/default",
+            "scopes": [
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "strong": {
+      "$value": "{color.gray.500}",
+      "$type": "color",
+      "$description": "Borde de controles de formulario (3:1)",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "border/strong",
+            "scopes": [
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "focus": {
+      "$value": "{brand.accent.500}",
+      "$type": "color",
+      "$description": "Anillo de foco",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "border/focus",
+            "scopes": [
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "$value": "{brand.accent.600}",
+        "$type": "color",
+        "$description": "Borde de acción principal",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "border/action/primary",
+              "scopes": [
+                "STROKE_COLOR"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "error": {
+        "$value": "{color.red.600}",
+        "$type": "color",
+        "$description": "Borde de campo con error",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "border/feedback/error",
+              "scopes": [
+                "STROKE_COLOR"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "hover": {
+      "$value": "{color.gray.700}",
+      "$type": "color",
+      "$description": "Borde de control en hover",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "border/hover",
+            "scopes": [
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "icon": {
+    "primary": {
+      "$value": "{color.gray.700}",
+      "$type": "color",
+      "$description": "Icono principal",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "icon/primary",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "secondary": {
+      "$value": "{color.gray.500}",
+      "$type": "color",
+      "$description": "Icono secundario",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "icon/secondary",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "disabled": {
+      "$value": "{color.gray.300}",
+      "$type": "color",
+      "$description": "Icono deshabilitado",
+      "$extensions": {
+        "com.coredesignsystem": {
+          "figma": {
+            "collection": "theme",
+            "variable": "icon/disabled",
+            "scopes": [
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ]
+          }
+        }
+      }
+    },
+    "on-action": {
+      "primary": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Icono sobre bg/action/primary",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "icon/on-action/primary",
+              "scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ]
+            }
+          }
+        }
+      },
+      "destructive": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Icono sobre bg/action/destructive",
+        "$extensions": {
+          "com.coredesignsystem": {
+            "figma": {
+              "collection": "theme",
+              "variable": "icon/on-action/destructive",
+              "scopes": [
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
