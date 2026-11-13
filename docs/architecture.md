@@ -47,7 +47,9 @@ El archivo se recorre por capas, con separadores entre secciones:
 
 Panel de páginas en Figma (captura real de la interfaz):
 
-<img src="images/figma-pages-panel.png" alt="Panel de páginas del archivo de Figma de CORE" width="320">
+![Panel de páginas del archivo de Figma de CORE, lista completa en tres columnas](images/figma-pages-panel-columns.png)
+
+*Lista completa de páginas, dividida en tres columnas para leerla de un vistazo.*
 
 ## Convenciones de nombres
 
