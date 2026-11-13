@@ -8,6 +8,8 @@
 
 Creado por **[@dailyFuenmayor](https://github.com/dailyFuenmayor)**. Diseño de producto, UX/UI y arquitectura del sistema.
 
+**Caso de estudio completo en Behance:** [CORE Design System · Design System para Figma](https://www.behance.net/gallery/258472517/CORE-Design-System-Design-System-para-Figma)
+
 | Versión | Estado | Licencia | Herramienta |
 |---|---|---|---|
 | v1.0 | Estable | [CC BY 4.0](LICENSE) | Figma (Variables, Component Properties, Auto Layout) |
