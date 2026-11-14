@@ -96,13 +96,13 @@ tokens/
 
 ## Licencia y atribución
 
-CORE Design System se distribuye bajo **[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE)**. Puedes copiarlo, redistribuirlo y adaptarlo, incluso con fines comerciales, siempre que indiques la autoría y la licencia, y señales si hiciste cambios.
+CORE Design System se distribuye bajo **[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE)**. La licencia cubre la documentación, los **tokens de diseño** de [`tokens/`](tokens) y las imágenes propias de CORE. Puedes copiarlos, redistribuirlos y adaptarlos, incluso con fines comerciales, siempre que indiques la autoría y la licencia, y señales si hiciste cambios.
 
 Atribución sugerida:
 
 > «CORE Design System» por @dailyFuenmayor, bajo CC BY 4.0 (creativecommons.org/licenses/by/4.0/). Modificado: [describe los cambios].
 
-La licencia no cubre el nombre ni el símbolo de CORE como marca. Los recursos de terceros (iconos de Lucide, tipografías Geist e IBM Plex) conservan sus propias licencias: ver [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). **Acme Projects** y **Nova** son ficticios; los nombres, correos y datos de los ejemplos son inventados.
+Qué no cubre la licencia: el nombre y el símbolo de CORE como marca, los recursos de terceros (iconos de Lucide y Feather, tipografías Geist e IBM Plex) y la interfaz de Figma que aparece en dos capturas. Detalle en [NOTICE.md](NOTICE.md) y [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). **Acme Projects** y **Nova** son ficticios; los nombres, correos y datos de los ejemplos son inventados.
 
 ## Hoja de ruta
 

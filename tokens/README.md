@@ -2,6 +2,8 @@
 
 Exportación de las variables y estilos del archivo maestro de Figma de CORE (v1.0) al [formato DTCG](https://www.designtokens.org/tr/2025.10/format/) (Design Tokens Community Group, versión 2025.10).
 
+**Licencia:** estos archivos son materiales propios de CORE y se distribuyen bajo [CC BY 4.0](../LICENSE). Si los usas o los transformas (por ejemplo, para generar CSS), indica la autoría y la licencia como se explica en [NOTICE.md](../NOTICE.md). Los nombres de familias tipográficas que contienen (Geist, IBM Plex) solo nombran fuentes de terceros: los archivos de fuentes no se incluyen y tienen su propia licencia.
+
 Estos archivos son datos, no una librería: no incluyen código ni un paso de compilación. Puedes usarlos con herramientas compatibles con DTCG, como Style Dictionary o Tokens Studio, para generar CSS, JS u otros formatos.
 
 ## Archivos
